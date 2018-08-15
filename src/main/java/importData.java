@@ -25,5 +25,12 @@ public class importData {
         XSSFCell cellPassword = sheet.getRow(1).getCell(1);
         userName = cellUsername.getStringCellValue();
         password = cellPassword.getStringCellValue();
+
+        //int noOfColumns = sheet.getRow(0).getLastCellNum();
+        //System.out.println(noOfColumns);
+
+        //int noOfRows = sheet.getLastRowNum();
+        //System.out.println(noOfRows);
+
     }
 }
