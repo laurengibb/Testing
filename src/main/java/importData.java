@@ -1,7 +1,4 @@
-import jdk.internal.dynalink.beans.StaticClass;
 import org.apache.poi.xssf.usermodel.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
